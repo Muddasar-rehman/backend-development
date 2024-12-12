@@ -9,52 +9,6 @@ This API is built using Node.js and Express to manage users and their tasks. It 
 - **Task Management**: Create, read, update, and delete tasks.
 - **Pagination**: Fetch tasks with pagination support.
 
----
-
-## Prerequisites
-Before setting up the project, ensure the following are installed:
-- [Node.js](https://nodejs.org/) (v14.x or above)
-- [npm](https://www.npmjs.com/) (comes with Node.js)
-
----
-
-## Setup Instructions
-
-### 1. Clone the Repository
-```bash
-git clone <repository-url>
-cd <repository-folder>
-npm install
-PORT=5000
-BACKEND_URI=mongodb+srv://root123:root123@cluster0.fmm7o.mongodb.net/backend-test?retryWrites=true&w=majority&appName=Cluster0
-JWT_SECRET=4389thq5hh9grghrw9eugvnnvr94w9wr94r
-
-npm start
-
-Here’s a complete README.md file with all the requested details:
-
-markdown
-Copy code
-# User and Task Management API
-
-This API is built using Node.js and Express to manage users and their tasks. It provides user authentication, task management, and CRUD operations.
-
----
-
-## Features
-- **User Authentication**: Register and login with JWT authentication.
-- **Task Management**: Create, read, update, and delete tasks.
-- **Pagination**: Fetch tasks with pagination support.
-
----
-
-## Prerequisites
-Before setting up the project, ensure the following are installed:
-- [Node.js](https://nodejs.org/) (v14.x or above)
-- [npm](https://www.npmjs.com/) (comes with Node.js)
-
----
-
 ## Setup Instructions
 
 ### 1. Clone the Repository
@@ -89,8 +43,6 @@ Request Body:
   "password": "password123"
 }
 Response:
-
-
 {
   "message": "User registered successfully",
   "user": {
